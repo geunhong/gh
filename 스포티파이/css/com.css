@@ -1,0 +1,252 @@
+a{
+    text-decoration:none;
+    color:white;
+}
+
+span{
+    color:white;
+}
+
+
+.hidden{
+    width: 1px;
+    height: 1px;
+    line-height: 0px;
+    font-size:0px;
+    position: absolute;
+}
+
+.skipmenu_list li a:focus{
+    width: 100%;
+    height: 30px;
+    background-color:black;
+    color:white;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size:14px;
+}
+
+
+/*헤더 영역*/
+header#header_wrap{
+    width: 100%;
+    height: 80px;
+    background: black;
+    float:left;
+}
+
+
+section#header_inner{
+    width: 1200px;
+    height: 100%;
+    margin:0px auto;
+    position: relative;
+    left:0px;
+    top:0px;
+    background: blue;
+}
+
+h1.logo1{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top:15px;
+    left:0px;
+    background: green;
+}
+
+h1.logo1>a>img{
+    width: 150px;
+    height: 50px;
+}
+
+nav#mainMenu{
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    right:0px;
+    top:30px;
+    background: blue;
+}
+
+ul#main_menuList{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content:space-between;
+    background: pink;
+}
+
+ul#main_menuList>li{
+    text-align: center;
+}
+
+
+
+ul#main_menuList>li>a{
+    font-size:14px;
+    font-family:'Roboto';
+    font-weight: bold;
+    font-style:normal;
+}
+
+ul#main_menuList>li>a:hover{
+    color:aquamarine;
+}
+
+
+/*푸터 영역*/
+
+footer#footer_wrap{
+    width: 100%;
+    height: 500px;
+    background: black;
+    float:left;
+}
+
+
+section#footer_inner{
+    width: 1200px;
+    height: 100%;
+    margin:0px auto;
+    position: relative;
+    top:0px;
+    left:0px;
+    padding-top:100px;
+    box-sizing: border-box;
+    background: blue;
+}
+
+h1.logo2{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top:100px;
+    left:0px;
+    background: hotpink;
+}
+
+h1.logo2>a>img{
+width: 150px;
+height: 50px;
+}
+
+#footer_area1{
+    width: 1050px;
+    height: 300px;
+    margin-left:150px;
+    padding-top:20px;
+    background: pink;
+}
+
+#menu_list{  
+    width: 100%;
+    height: 100%;
+    background: gold;
+}
+
+#menu_list>li{
+    width: auto;
+    height: 20px;
+    float:left;
+    margin-left:30px;
+    color:gray;
+    background: fuchsia;
+}
+
+ul#submenu_list{
+    width: 100%;
+    height: 100%;
+}
+
+ul#submenu_list>li{
+    width: auto;
+    height: 20px;
+    margin-top:20px;
+    background: aqua;
+}
+
+ul#submenu_list>li>a{
+    color:white;
+    font-size: 14px;
+    font-style:normal;
+    font-family: 'Roboto';
+
+}
+
+ul#submenu_list>li>a:hover{
+    color:aquamarine
+}
+
+div#footer_area2{
+    width: 100%;
+    height: 80px;
+    text-align: right;
+    background: red;
+    padding-top:20px;
+    box-sizing: border-box;
+}
+
+p.area2_from_text{
+   font-size:14px;
+   font-family:'Roboto';
+   font-style:normal;
+   color:gray;
+   background: darkblue;
+}
+
+ul#area2_list{
+    width:70%;
+    height: 20px;
+    display:flex;
+    justify-content: space-between;
+    float:left;
+    background: skyblue;
+}
+
+ul#area2_list>li>a{
+    font-size:0.875em;
+    font-family:'Roboto';
+    font-style:normal;
+    font-weight: bold;
+}
+
+ul#area2_list>li>a:hover{
+    color:aquamarine;
+}
+
+span.area2_year_text{
+    font-size:14px;
+    font-family:'Roboto';
+    font-style:normal;
+    color:gray;
+    background: darkblue;
+}
+
+
+
+
+
+@media screen and (max-width:1200px){
+    
+    section#header_inner,section#footer_inner{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:980px){
+    
+    div#footer_area2{
+        font-size:0.875em;
+    }
+
+}
+@media screen and (max-width:768px){
+    
+    div#footer_area2{
+        font-size:0.725em;
+    }
+
+}
